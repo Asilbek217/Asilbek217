@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #ffff;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 30% 30% 30% 30%;
+  grid-template-columns: repeat(4, 26%);
+  justify-content: center;
+  row-gap: 2.5rem;
+  column-gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid black;
+  background-color: #3a66a4;
+  gap: 4rem;
+  color: rgb(172, 199, 206);
+}
+
+.one {
+  font-size: 4rem;
+  color: rgb(26, 21, 21);
+}
+
+.other {
+  padding-bottom: 10rem;
+}
